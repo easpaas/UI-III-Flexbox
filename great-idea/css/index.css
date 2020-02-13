@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	width: 900px;
+	margin: 0 auto;
 	line-height: 1;
 }
 ol, ul {
@@ -66,6 +68,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* index.html styles here */
+* {
+
+}
 
 /* Header Styles */
 nav {
