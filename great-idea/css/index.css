@@ -134,3 +134,14 @@ address p{
 #copyright {
 	text-align:center;
 }
+
+
+/* Services.html styles below */
+
+/* Middle section styles */
+.mid-container {
+	border:1px solid black;
+	background-color:gray;
+}
+
+/* Services section styles */
