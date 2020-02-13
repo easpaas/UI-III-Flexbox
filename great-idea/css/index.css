@@ -111,20 +111,18 @@ button {
 	width:100%;
 	padding:20px;
 }
-/* .sectionTwo-containers{
-	/* display:inline-block; */
-	/* width:49% */
-} */
+
 
 /* Section three styles */
 .three{
+	display:flex;
 	border-bottom:1px solid black;
 	padding:20px;
 }
-.sectionThree-containers{
+/* .sectionThree-containers{
 	display:inline-block;
 	width:33%;
-}
+} */
 
 /* Footer styles */
 footer {
