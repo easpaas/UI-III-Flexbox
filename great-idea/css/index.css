@@ -68,37 +68,32 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* index.html styles here */
-* {
-
-}
 
 /* Header Styles */
+header {
+	display:flex;
+	justify-content:space-between;
+}
 nav {
 	width:70%;
-	display:inline-block;
 	padding:25px;
-	vertical-align:middle;
+	display:flex;
 }
 nav a {
 	text-align:center;
 	color:grey;
 	text-decoration:none;
-	display:inline-block;
 	width:16%;
 }
-.logo {
-	vertical-align:middle;
-	margin-left:68px;
-}
+
 
 /* Section one styles */
 .one {
 	padding:30px;
+	display:flex;
 }
 .innovate {
-	display:inline-block;
 	width:50%;
-	vertical-align:middle;
 	text-align:center;
 	margin:15px;
 }
@@ -107,9 +102,6 @@ nav a {
 }
 button {
 	padding:10px 55px 10px 55px;
-}
-.code-img{
-	vertical-align: middle;
 }
 
 /* Mid-container used to add top and bottom border around middle of page */
