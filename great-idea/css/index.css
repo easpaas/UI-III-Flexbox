@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* index.html styles here */
+
+/* Header Styles */
+nav {
+	width:70%;
+	display:inline-block;
+	padding:25px;
+	vertical-align:middle;
+}
+nav a {
+	text-align:center;
+	color:grey;
+	text-decoration:none;
+	display:inline-block;
+	width:16%;
+}
+.logo {
+	vertical-align:middle;
+	margin-left:68px;
+}
+
+/* Section one styles */
+.one {
+	padding:30px;
+}
+.innovate {
+	display:inline-block;
+	width:50%;
+	vertical-align:middle;
+	text-align:center;
+	margin:15px;
+}
+.innovate h1 {
+	font-size:75px;
+}
+button {
+	padding:10px 55px 10px 55px;
+}
+.code-img{
+	vertical-align: middle;
+}
+
+/* Mid-container used to add top and bottom border around middle of page */
+.mid-container{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top:25px;
+	padding-bottom:25px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.mid-img{
+	padding:15px;
+}
+
+/* Section two styles */
+.two{
+	border-top: 1px solid black;
+	display:inline-block;
+	width:100%;
+	padding:20px;
+}
+.sectionTwo-containers{
+	display:inline-block;
+	width:49%
+}
+
+/* Section three styles */
+.three{
+	border-bottom:1px solid black;
+	padding:20px;
+}
+.sectionThree-containers{
+	display:inline-block;
+	width:33%;
+}
+
+/* Footer styles */
+footer {
+	padding-top:20px;
+}
+address p{
+	margin-bottom:20px;
+}
+#copyright {
+	text-align:center;
+}
