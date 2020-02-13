@@ -65,9 +65,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* index.html styles below */
 
-/* index.html styles here */
 
 /* Header Styles */
 header {
@@ -91,9 +90,9 @@ nav a {
 .one {
 	padding:30px;
 	display:flex;
+	justify-content:space-between;
 }
 .innovate {
-	width:50%;
 	text-align:center;
 	margin:15px;
 }
@@ -104,30 +103,18 @@ button {
 	padding:10px 55px 10px 55px;
 }
 
-/* Mid-container used to add top and bottom border around middle of page */
-.mid-container{
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	padding-top:25px;
-	padding-bottom:25px;
-	margin-top:25px;
-	margin-bottom:25px;
-}
-.mid-img{
-	padding:15px;
-}
 
 /* Section two styles */
 .two{
 	border-top: 1px solid black;
-	display:inline-block;
+	display:flex;
 	width:100%;
 	padding:20px;
 }
-.sectionTwo-containers{
-	display:inline-block;
-	width:49%
-}
+/* .sectionTwo-containers{
+	/* display:inline-block; */
+	/* width:49% */
+} */
 
 /* Section three styles */
 .three{
