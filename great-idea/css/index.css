@@ -152,24 +152,35 @@ address p{
 	margin:15px;
 	padding:25px;
 }
+.mid-container p {
+	padding:15px;
+}
+.mid-container button{
+	text-align:center;
+	border-radius:8px;
+	border-color:black;
+}
+
 
 /* Facts section styles */
 .facts-section {
 	display:flex;
-	margin:0 auto;
+	margin-bottom:50px;
+	margin-top:40px;
 }
-.facts-section h3 {
-	padding:10px;
+.facts-section div {
+	width:46%;
+	margin-right:55px;
 }
 .facts-section p {
-	padding:15px;
+	margin-bottom:30px;
 }
-/* .list{
-	list-style-type: square;
-	list-style-position: inside;
-} */
+.list-item{
+	margin-bottom:10px;
+}
 
 
+/* Border styles */
 .border{
 	border:1px solid black;
 	margin:25px 25px;
