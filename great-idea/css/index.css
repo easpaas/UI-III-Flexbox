@@ -65,7 +65,12 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* index.html styles below */
+
+/* 
+ * **************************
+ * Index.html styles below 
+ * **************************
+*/
 
 
 /* Header Styles */
@@ -132,16 +137,32 @@ address p{
 }
 
 
-/* Services.html styles below */
+/* 
+ * **************************
+ * Services.html styles below 
+ * **************************
+*/
 
 
 /* Header section styles */
-.services-header-img{
-	width:100%
+header .service-nav {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.service-nav div{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
 }
 
 
 /* Services section styles */
+.services-header-img{
+	width:100%
+}
 .service-section {
 	margin-top:25px;
 	margin-bottom:25px;
