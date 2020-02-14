@@ -138,10 +138,35 @@ address p{
 
 /* Services.html styles below */
 
+
+/* Services section styles */
+
+
+
 /* Middle section styles */
 .mid-container {
 	border:1px solid black;
 	background-color:gray;
 }
 
-/* Services section styles */
+/* Facts section styles */
+.facts-section {
+	display:flex;
+}
+.facts-section h3 {
+	padding:10px;
+}
+.facts-section p {
+	padding:15px;
+}
+.list{
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+
+.border{
+	border:1px solid black;
+	width:100%;
+
+}
