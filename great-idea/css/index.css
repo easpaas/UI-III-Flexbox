@@ -33,9 +33,9 @@ body {
 	margin: 0 auto;
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -144,14 +144,23 @@ address p{
 
 
 /* Middle section styles */
+.middle-section{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
 .mid-container {
 	border:1px solid black;
 	background-color:gray;
+	width:40%;
+	margin:15px;
+	padding:10px;
 }
 
 /* Facts section styles */
 .facts-section {
 	display:flex;
+	margin:0 auto;
 }
 .facts-section h3 {
 	padding:10px;
@@ -159,10 +168,10 @@ address p{
 .facts-section p {
 	padding:15px;
 }
-.list{
+/* .list{
 	list-style-type: square;
 	list-style-position: inside;
-}
+} */
 
 
 .border{
